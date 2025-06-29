@@ -47,3 +47,15 @@ coverage.xml
 
 # Uploads from some paper tests
 uploads/
+*.key
+*.pem
+*credentials*
+
+# Credentials and sensitive files
+.aws/
+.env.development
+.env.local
+.env.*.local
+*.key
+*.pem
+*credentials*
